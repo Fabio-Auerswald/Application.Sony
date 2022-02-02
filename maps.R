@@ -1,47 +1,3 @@
----
-title: "**Contact Info**"
----
-
-<style>
-a:link {
-  color: #990000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: darkblue;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
-
-
-### You can reach me under the following contact details: 
-
-<img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/mobile.png" style="" alt="mobile-pictogram"
-	title="" width="2.5%" /> **+49 1771918327**
-<br/>
-
-<img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/mail.png" style="" alt="mail-pictogram"
-	title="" width="3%" /> **auerswaldfabio@gmail.com**
-	
-<br/><br/>
-
-
-```{r, echo=FALSE, include= FALSE, warning=FALSE, message=FALSE }
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load("tidyverse", "viridis", "ggridges", "hrbrthemes", "ggmap","osmdata")
 
@@ -74,13 +30,13 @@ locations <- locations %>% mutate(employees = case_when(
 
 
 
-map <- ggmap(berlin_images) +
+maps <- ggmap(berlin_images) +
   geom_point(aes(x=lon, y=lat, size=employees, color="red"), data=locations) + 
   geom_text(aes(label=locations, vjust=2), data=locations) +
   guides(color=FALSE) +
-  labs(size="# of employees",
-       title= "A map of Berlin",
-       subtitle= "Showing the number of (potential) employees of Sony Music",
+  labs(size="Number of employees",
+       title= "A map of (potential) Berlin",
+       subtitle= "NUmber of Sony employees",
        caption= "Fabio Auerswald, 2022") +
   xlab("") +
   ylab("") + 
@@ -89,11 +45,13 @@ map <- ggmap(berlin_images) +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank())
 
-```
+maps
 
-## A map of Berlin 
-  * With the location of the Sony Music headquarters in berlin and my address
-```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='left', fig.dim = c(10,10)}
+ggmap(berlin_images) +
+  geom_point(aes(x=lon, y=lat), data=locations)
 
-map
-```
+
+
+ggmap(berlin_images) +
+  geom_point(aes(x=lon, y=lat, size=11), data=locations) + 
+  geom_text(aes(label=locations, vjust=2), data=locations)

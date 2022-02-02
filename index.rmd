@@ -63,3 +63,52 @@ a:active {
 
 #### How this webpage was created {.tabset}
 * This webpage was build with RStudio using the documentation tool RMarkdown including html, css and Github      Pages for publishing it on the web.
+
+
+
+
+
+```{r, echo=FALSE, include=FALSE, warning=FALSE }
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load("tidyverse", "viridis", "ggplot", "hrbrthemes")
+
+setwd("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io")
+students <- readxl::read_excel("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/students.xlsx")
+
+violin <- ggplot(students, aes(y=age, x=faculty, fill=faculty)) +
+  
+  geom_violin(position="dodge") +
+  
+  geom_boxplot(width=0.2) +
+  
+  labs(title = "Violin plot",
+       
+       fill = "Faculty",
+       
+       subtitle = "Distribution of student age by faculty",
+       
+       caption = "Fabio Auerswald, 2022",
+       legend_title = "Figure") +
+  
+  ylab("Respondents's age (in years)") +
+  xlab("Faculty") + 
+  
+  scale_y_continuous(limits= c(0,65)) +
+  
+  theme_light()
+
+```
+
+
+<br/><br/>
+
+# .
+
+## *Violin Plot with sample data*
+
+* Following figure shows a violin plot showing a age distribution sorted by faculty.
+
+```{r, echo=FALSE, warning=FALSE, fig.align='center' }
+violin
+```
