@@ -16,7 +16,7 @@ text-align: justify}
 
 </style>
 
-<img src="/Users/Fabio/Documents/GitHub/faelele.github.io/Auerswald.jpg" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
+<img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
 	title="" width="25%" />
 ```{css, echo = F}
 img {
