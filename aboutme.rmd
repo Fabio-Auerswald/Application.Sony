@@ -13,19 +13,20 @@ output_dir: "."
 body {
 text-align: justify}
 
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    color: #990000;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    color: #ffffff;
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
     background-color: #990000;
+    border-color: transparent;
 }
+
+
+#TOC {
+  color: #990000;
+  background-color: #990000;
+}
+
 </style>
-
-
 
 ### My passion for Data 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 

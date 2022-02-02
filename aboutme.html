@@ -354,16 +354,19 @@ div.tocify {
 body {
 text-align: justify}
 
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    color: #990000;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    color: #ffffff;
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
     background-color: #990000;
+    border-color: transparent;
 }
+
+
+#TOC {
+  color: #990000;
+  background-color: #990000;
+}
+
 </style>
 <div id="my-passion-for-data" class="section level3">
 <h3>My passion for Data</h3>

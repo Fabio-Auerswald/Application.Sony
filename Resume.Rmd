@@ -14,32 +14,32 @@ output_dir: "."
 body {
 text-align: justify}
 
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #990000;
+    border-color: transparent;
+}
+
 </style>
 
 <img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
 	title="" width="25%" />
+	
+	
 ```{css, echo = F}
 img {
     float: right;
 }
 ```
-<style>
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    color: #990000;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    color: #ffffff;
-    background-color: #990000;
-}
-</style>
+
+
 ```{css, echo = F}
 ul {
     color: #990000;
 }
 ```
+
 ## *EDUCATION*
 
 #### **Studium an der Universität Potsdam**
@@ -69,7 +69,7 @@ ul {
 
 
 #### **Sprachreise in Buenos Aires, Argentinien**
-  - 05/ 2015 – 04/ 2016 | Intensivsprachkurs bei Academia Buenos Aires
+  - *05/ 2015 – 04/ 2016 | Intensivsprachkurs bei Academia Buenos Aires*
     + Abgeschlossene Sprachniveaus: A1 bis C1
     
 <br/>
