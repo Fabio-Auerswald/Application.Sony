@@ -1,0 +1,139 @@
+---
+title: "**Resume**" 
+output:
+  html_document: 
+    number_sections: false
+    toc: true
+    toc_depht: 2
+    toc_float: true
+    collapsed: true
+output_dir: "."
+---
+
+<style>
+body {
+text-align: justify}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #990000;
+    border-color: transparent;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #990000;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #ffffff;
+    background-color: #990000;
+}
+</style>
+
+<img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
+	title="" width="25%" />
+	
+```{css, echo = F}
+img {
+    float: right;
+}
+```
+
+
+```{css, echo = F}
+ul {
+    color: #990000;
+}
+```
+
+## *EDUCATION*
+
+#### **Bachelor’s degree at the University of Potsdam**
+
+  * *10/ 2019 – Present | Economics with sociology as a supplementary subject* 
+      + Majors: Mathematics, Econometrics & organizational sociology
+      
+<br/>
+
+
+#### **Music studies**
+  - *02/2019-09/2019 | Self-organized study in jazz piano*
+    + Lessons by two faculty members: Carlo Inderhees & Cornelisu C. Kreusch 
+    + Lessons in the areas of composition, harmony, rhythm, classical music, and jazz
+    
+<br/>
+
+
+#### **Bachelor’s degree at HTW Berlin**
+ - *04/2017-01/2019 | Degree in Mechanical engineering*
+    + Majors: mathematics, & computer science
+    + Semester abroad at the Universidade Federal de Mina Gerais in Belo Horizonte, Brazil
+    
+<br/>
+
+
+#### **Language course in Buenos Aires, Argentina**
+  - *05/ 2015 – 04/ 2016 | Intensive language course in Academia Buenos Aires*
+    + Attained language proficiency A1 till C1
+    
+<br/>
+    
+    
+#### **Vocational training at MTU Friedrichshafen GmbH**
+  - *09/ 2011 – 08/ 2014 | Industrial mechanic training & acquired entrance qualification for the university of applied sciences*
+    + Dual vocational training in metal technology at Claude-Dornier-Schule 
+    
+<br/><br/>
+
+
+## *WORK EXPERIENCE*
+
+#### **New Beings**
+  - *10/ 2021 – Present | Facilitator for Project-related Workshops*
+    + Interactive Workshops and presentations in companies regarding topics such as racism, diversity, and            inclusion
+      
+<br/>
+
+#### **JAYJAY-Models**
+  - *11/ 2016 – Present | Running contract with a modeling agency*
+    + Actor for film and advertising campaigns in cooperation with companies such as Mercedes, BMW, LEVI‘s,         etc.
+
+<br/>
+
+#### **Rolls-Royce Power System AG**
+  - *07/ 2014 – 04/ 2015 - Placement Industrial mechanic*
+    + Work area: Locksmith & Quality control
+
+
+<br/><br/>
+
+
+
+## *Languages & Skills* {.tabset .tabset-fade .tabset-pills}
+(Language levels according to the European Framework of Reference)
+
+### Languages {.tabset}
+
+* German        Native
+* English		    C1
+* Spanish 	    C1
+* Portuguese    B2
+* French        B1
+
+
+### Skills
+
+* MS-Office-
+* R (Programming language)
+  + RMarkdown (data reporting)
+  + Rvest (web-scraping)
+* STATA	
+* HTML		
+* CSS
+* Python		
+* PostgreSQL
+* Econometrics
+

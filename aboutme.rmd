@@ -28,34 +28,18 @@ text-align: justify}
 
 </style>
 
-### My passion for Data 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At 
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
-dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
 
-### My Interest in the field 
+### *My Interest in the field*
 dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
 ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
 diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
 diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
 kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 
-### About the position 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie 
-consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan 
-et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
-dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer 
-adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna 
-aliquam erat volutpat.   
+### *Why I'm a perfect fit*
+I'm a music loving enthusiast who's obsessed with data. I possess a strong passion for music and decided to pursue a professional career. During this time, I have again profoundly developed my skills in self-discipline and self-organization. However, due to my growing interest in financial topics, I’ve decided to study economics. Through my supplementary subject and focus on organizational sociology, I am particularly aware of the different perspectives with which a company and the business decisions to be made can be viewed. Through concepts such as scrum, I have learned the relevance of the basic structure of communication channels and their importance for the success of decisions. 
+Furthermore, my work at New Beings has taught me how important it is to question the status quo, es-tablish structures, and continuously re-evaluate them to effectively bring about change that creates added value for all parties involved. In doing so, I became aware of basic behaviors, such as habit and ignorance, as obstacles to a change process, which made me realize the importance of teamwork and a change of perspective.
 
-### Why I'm a perfect fit 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor 
-in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat 
-nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent 
-luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
-M Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id 
-quod mazim placerat facer
+### *My passion for Data*
+In my ongoing studies I had the chance to gain a large skill set in a variety of topics regarding statistics and data analysis. Throughout courses in R and STATA I became familiar with the modern tools of data analysis and the endless possibilities in edit, analyse and visualize data. Since then I'm familiar with the process of data wrangling, cleaning and I have a deep understanding of descriptive and inferential statistics. In decision solid foundation of well analysed data always needs to be at hand, but not only the data needs to be analyse it as well needs to be visualized and communicated adequately to those who take a decision. I have a knowledge of data visualisation and data collection through methods such as web-scraping. Therefore I see myself trained enough to provide sufficient information for rational decision making.
+

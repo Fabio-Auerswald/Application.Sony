@@ -21,21 +21,45 @@ text-align: justify}
     color: #ffffff;
     background-color: #990000;
 }
+
+a:link {
+  color: #990000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 </style>
 
 ### *Welcome to my online CV* {.tabset .tabset-fade .tabset-pills}
 
 
 #### What this webpage is about {.tabset}
-* On this webpage you can find out more about me and my passion for Data Science.
-
+* With this webpage I would like to express my sincere interest in the position as a **working student** in the      department **market analytics** at Sony Music. Here I have provided everything for you in order to get to know me   a little better and get an idea what my motivation is. You can find out where my passion for data science      derives from and what made me aspire to become to a Data Scientist. If you would like to jump directly to a    quick overview, click <a href="https://fabio-auerswald.github.io/Resume.html "rel="noopener noreferrer" target="_parent">here</a>.
 
 #### What can be found on this webpage {.tabset}
-* A Resume, with detailed information about my education and work experience
-* A section with more details about myself
+* A Resume, with detailed information about my education, work experience and further skills
+* A section with more details and an introduction
 * References to my musical activities
 * Contact info
 
 
-#### How this webpage was build. {.tabset}
-* This webpage was build with RStudio using the documentation tool RMarkdown.
+#### How this webpage was created {.tabset}
+* This webpage was build with RStudio using the documentation tool RMarkdown including html, css and Github      Pages for publishing it on the web.

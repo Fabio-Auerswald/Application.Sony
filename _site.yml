@@ -7,7 +7,7 @@ navbar:
     - text: "About Me"
       href: aboutme.html
     - text: "Resume"
-      href: Resume.html
+      href: resume.english.html
     - text: "References"
       href: references.html
     - text: "Contact"

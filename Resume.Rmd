@@ -26,7 +26,6 @@ text-align: justify}
 <img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
 	title="" width="25%" />
 	
-	
 ```{css, echo = F}
 img {
     float: right;
