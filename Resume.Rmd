@@ -23,27 +23,36 @@ img {
     float: right;
 }
 ```
-
-
-
+<style>
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #990000;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #ffffff;
+    background-color: #990000;
+}
+</style>
 ```{css, echo = F}
 ul {
-    color: darkblue;
+    color: #990000;
 }
 ```
 ## *EDUCATION*
 
 #### **Studium an der Universität Potsdam**
 
-  * 10/ 2019 – Heute | Volkswirtschaftslehre mit Ergänzungsfach Soziologie 
+  * *10/ 2019 – Heute | Volkswirtschaftslehre mit Ergänzungsfach Soziologie* 
       + Schwerpunkte: Mathematik, Ökonometrie & Organisationssoziologie
-      + AngestrebterAbschlussBachelorofScience
+      + Angestrebter Abschluss Bachelor of Science
       
 <br/>
 
 
 #### **Musikstudium**
-  - 02/2019-09/2019 | Selbstorganisiertes Studium in Jazz-Klavier
+  - *02/2019-09/2019 | Selbstorganisiertes Studium in Jazz-Klavier*
     + Unterrichtet durch CarloInderhees & Cornelius C. Kreusch
     + In den Bereichen Komposition, Harmonie, Rhythmik, klassischer Musik und Jazz
     
@@ -51,7 +60,7 @@ ul {
 
 
 #### **Studium an der HTW Berlin**
- - 04/2017-01/2019 | Studium in Maschinenbau
+ - *04/2017-01/2019 | Studium in Maschinenbau*
     + SchwerpunkteMathematik & Informatik
     + Auslandssemester für drei Monate an der Universidade Federal de Mina Gerais
     in Belo Horizonte, Brasilien
@@ -61,13 +70,13 @@ ul {
 
 #### **Sprachreise in Buenos Aires, Argentinien**
   - 05/ 2015 – 04/ 2016 | Intensivsprachkurs bei Academia Buenos Aires
-    + AbgeschlosseneSprachniveaus: A1 bis C1
+    + Abgeschlossene Sprachniveaus: A1 bis C1
     
 <br/>
     
     
 #### **Duale Berufsausbildung bei MTU Friedrichshafen GmbH**
-  - 09/ 2011 – 08/ 2014 | Als Industriemechaniker & Erwerb Fachhochschulreife
+  - *09/ 2011 – 08/ 2014 | Als Industriemechaniker & Erwerb Fachhochschulreife*
     + Duales Berufskolleg in Metalltechnik an der Claude-Dornier-Schule in
     Kombination mit einer Berufsausbildung
     
@@ -77,20 +86,20 @@ ul {
 ## *WORK EXPERIENCE*
 
 #### **New Beings**
-  - 10/ 2021 – heute | Moderator für Projektbezogene Workshops
+  - *10/ 2021 – heute | Moderator für Projektbezogene Workshops*
     + Interaktive Workshops und Vorträge in Unternehmen zu den Themen Rassismus, Diversität
       und Inklusion
       
 <br/>
 
 #### **JAYJAY-Models**
-  - 11/ 2016 – heute | Auftragsbezogene Arbeit als Model bei einer Agentur
+  - *11/ 2016 – heute | Auftragsbezogene Arbeit als Model bei einer Agentur*
     + Darsteller für Film und Werbekampagnen von Unternehmen wie Mercedes, BMW, LEVI‘s
 
 <br/>
 
 #### **Rolls-Royce Power System AG**
-  - 07/ 2014 – 04/ 2015 - Anstellung als Industriemechaniker
+  - *07/ 2014 – 04/ 2015 - Anstellung als Industriemechaniker*
     + Arbeitsbereich: Schlosserei & Qualitätskontrolle
 
 

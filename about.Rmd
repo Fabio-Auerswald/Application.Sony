@@ -3,7 +3,7 @@ title: "**Contact Info**"
 ---
 <style>
 a:link {
-  color: darkblue;
+  color: #990000;
   background-color: transparent;
   text-decoration: none;
 }
@@ -15,7 +15,7 @@ a:visited {
 }
 
 a:hover {
-  color: red;
+  color: darkblue;
   background-color: transparent;
   text-decoration: underline;
 }
