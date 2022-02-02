@@ -1,5 +1,5 @@
 ---
-title: "" 
+title: "**My Web-CV**" 
 output:
   html_document:
     theme: cosmo
@@ -12,7 +12,7 @@ body {
 text-align: justify}
 </style>
 
-### **Welcome to my online CV** {.tabset .tabset-fade .tabset-pills}
+### *Welcome to my online CV* {.tabset .tabset-fade .tabset-pills}
 
 
 #### What this webpage is about {.tabset}
