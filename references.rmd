@@ -1,0 +1,40 @@
+---
+title: "**References**"
+output: html_document
+---
+
+<style>
+a:link {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+## <a href="https://www.youtube.com/watch?v=EjZedUpnmVI&t=2041s">The N.E.R.D. Expereince Part 1 celebrated by the GEEKx</a>
+* The Geekx is a project I participated in to celebrate the music of  N.E.R.D 
+
+
+## <a href="https://youtu.be/GLKWujRzgxk?t=1484">Secric Perry Live | CURL CON Virtual</a>
+* Sedric Perry is a Berlin based artist who I performed with on several occasions.
+ 
+

@@ -1,0 +1,21 @@
+name: "My Online CV"
+navbar:
+  title: "Fabio Auerswald"
+  left:
+    - text: "Welcome"
+      href: index.html
+    - text: "About Me"
+      href: aboutme.html
+    - text: "Resume"
+      href: Resume.html
+    - text: "Music References"
+      href: references.html
+    - text: "Contact"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.css
+output_dir: "."
+

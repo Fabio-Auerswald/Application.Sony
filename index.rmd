@@ -1,0 +1,29 @@
+---
+title: "" 
+output:
+  html_document:
+    theme: cosmo
+output_dir: "."
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+### **Welcome to my online CV** {.tabset .tabset-fade .tabset-pills}
+
+
+#### What this webpage is about {.tabset}
+* On this webpage you can find out more about me and my passion for Data Science.
+
+
+#### What can be found on this webpage {.tabset}
+* A Resume, with detailed information about my education and work experience
+* A section with more details about myself
+* References to my musical activities
+* Contact info
+
+
+#### How this webpage was build. {.tabset}
+* This webpage was build with RStudio using the documentation tool RMarkdown.

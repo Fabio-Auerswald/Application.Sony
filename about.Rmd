@@ -1,0 +1,39 @@
+---
+title: "**Contact Info**"
+---
+<style>
+a:link {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+### You can reach me under the following contact details: 
+
+<img src="/Users/Fabio/Documents/GitHub/faelele.github.io/mobile.png" style="" alt="mobile-pictogram"
+	title="" width="2.5%" /> **Phone: +49 1771918327**
+<br/>
+
+<img src="/Users/Fabio/Documents/GitHub/faelele.github.io/mail.png" style="" alt="mail-pictogram"
+	title="" width="3%" /> **auerswaldfabio@gmail.com**
+
