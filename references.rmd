@@ -157,7 +157,7 @@ violin
 ### Ridgeline Plot {.tabset}
 * Here you can see the R code of a quick data wrangling process with a final data visualization in a ridge-line plot. The plot shows the liking distribution by course of all students from the same data-frame as used before.
 
-``` {r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE}
+``` {r, echo=TRUE, include=TRUE, warning=FALSE, message=FALSE}
 
 # Automized loading of all packages at once
 if (!require("pacman")) install.packages("pacman")

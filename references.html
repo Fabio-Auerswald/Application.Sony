@@ -344,6 +344,31 @@ a:active {
 <ul>
 <li>Here you can see the R code of a quick data wrangling process with a final data visualization in a ridge-line plot. The plot shows the liking distribution by course of all students from the same data-frame as used before.</li>
 </ul>
+<pre class="r"><code># Automized loading of all packages at once
+if (!require(&quot;pacman&quot;)) install.packages(&quot;pacman&quot;)
+pacman::p_load(&quot;tidyverse&quot;, &quot;viridis&quot;, &quot;ggridges&quot;, &quot;hrbrthemes&quot;)
+
+# Setting a working directory and loading data
+setwd(&quot;/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io&quot;)
+students &lt;- readxl::read_excel(&quot;/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/students.xlsx&quot;)
+
+# Data wrangling followed by the visualization of desired information
+ridge &lt;-  students %&gt;%
+  mutate(like= as.numeric(like),
+         course = as.factor(course)) %&gt;%
+  filter(!is.na(course), !is.na(like)) %&gt;%
+  ggplot(aes(x = like, y = reorder(course, like), fill = ..x..)) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_viridis() +
+  labs(title = &quot;How much students like their course?&quot;) +
+  xlab(&quot;Liking the course (1-6)&quot;) +
+  ylab(&quot;Course enrollment&quot;) +
+  theme_ipsum() +
+  theme(
+    legend.position=&quot;none&quot;,
+    panel.spacing = unit(0.1, &quot;lines&quot;),
+    strip.text.x = element_text(size = 8)
+  )</code></pre>
 <p><img src="references_files/figure-html/figure-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
 </div>
