@@ -74,8 +74,8 @@ map <- ggmap(berlin_images) +
   geom_text(aes(label=locations, vjust=2), data=locations) +
   guides(color=FALSE) +
   labs(size="# of employees",
-       title= "A map of Berlin",
-       subtitle= "The size of the dots refer to the number of (potential) employees of Sony Music",
+       title= "",
+       subtitle= "",
        caption= "Fabio Auerswald, 2022") +
   xlab("") +
   ylab("") + 
@@ -88,6 +88,7 @@ map <- ggmap(berlin_images) +
 
 ## *A map of Berlin*
   * The red dots mark the location of the Sony Music headquarters in Berlin and my address
+  * The size of the dots refer to the number of (potential) employees of Sony Music
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='left', fig.dim = c(10,10)}
 map
 ```
