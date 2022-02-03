@@ -52,7 +52,7 @@ a:active {
 
 
 #### What this webpage is about {.tabset}
-* With this webpage I would like to express my sincere interest in the position as a <a href="https://www.sonymusic.de/job/werkstudentin-m-w-d-market-analytics/" rel="noopener noreferrer" target="_parent">working student in market analytics</a> at Sony Music. I'd like to showcase my combined skill set in communication, data analytics, coordination, and passion for music and proof how they can be beneficial to Sony Music. You will find all necessary information here to get to know me a little better and get an idea what my motivation is. If you would like to jump directly to a quick overview, please click <a href="https://fabio-auerswald.github.io/Resume.html "rel="noopener noreferrer" target="_parent">here</a>.
+* With this webpage I would like to express my sincere interest in the position as a <a href="https://www.sonymusic.de/job/werkstudentin-m-w-d-market-analytics/" rel="noopener noreferrer" target="_parent">working student in market analytics</a> at Sony Music. I'd like to showcase my combined skill set in communication, data analytics, coordination, and passion for music and proof how they can be beneficial to Sony Music. You will find all necessary information here to get to know me a little better and get an idea of what my motivation is. If you would like to jump directly to a quick overview, please click <a href="https://fabio-auerswald.github.io/Resume.html "rel="noopener noreferrer" target="_parent">here</a>.
 
 
 #### What can be found on this webpage {.tabset}
