@@ -5,7 +5,7 @@ output: html_document
 
 <style>
 a:link {
-  color: #990000;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -51,8 +51,6 @@ a:active {
 <br/><br/>
 
 ## *Data Visualisation Examples* {.tabset .tabset-fade .tabset-pills}
-* Here are some examples of data visualisation based on fictive dataframe of students
-
 
 ### Hisogram Chart {.tabset}
 * The following histograms show the five most used keys of my favorite pianist Ahmad Jamal. The data is downloaded via an API from my most used streaming platform.
@@ -118,7 +116,7 @@ favourite
 
 
 ### Violin Plot {.tabset}
-* Following figure shows a violin plot showing a age distribution sorted by faculty.
+* Following figure shows a violin plot showing the age distribution sorted by faculty. The used data originates from a sample data-frame with information about students. 
 ```{r, echo=FALSE, include=FALSE, warning=FALSE }
 
 if (!require("pacman")) install.packages("pacman")
@@ -157,7 +155,7 @@ violin
 
 
 ### Ridgeline Plot {.tabset}
-* Here you can see the R code of a quick data wrangling process with a final data visualization in a ridgeline plot. The plot shows a distribution of the liking of each course by the students.
+* Here you can see the R code of a quick data wrangling process with a final data visualization in a ridge-line plot. The plot shows the liking distribution by course of all students from the same data-frame as used before.
 
 ``` {r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE}
 

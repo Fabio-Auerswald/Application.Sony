@@ -33,8 +33,7 @@ text-align: justify}
 }
 </style>
 
-<!--img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
-	title="" width="25%" /-->
+
 	
 ```{css, echo = F}
 img {
@@ -48,6 +47,9 @@ ul {
     color: #990000;
 }
 ```
+
+* Click <a id="raw-url" href="https://github.com/Fabio-Auerswald/Fabio-Auerswald.github.io/raw/main/Fabio-Auerswald-Resume.pdf">here</a> if you would like to download this resume as a pdf file.
+
 
 ## *EDUCATION*
 
@@ -174,6 +176,5 @@ languages
 * Econometrics
 
 
-### Download printed Version
 
-* Click here <a href="myFile.js" download>Click to Download</a>to download the resume as a pdf file.
+
