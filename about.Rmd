@@ -1,5 +1,5 @@
 ---
-title: "*Contact Info*"
+title: "**Contact Info**"
 ---
 
 <style>
