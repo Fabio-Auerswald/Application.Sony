@@ -63,9 +63,8 @@ a:active {
 
 
 #### How this webpage was created {.tabset}
-* This webpage was built with RStudio using the documentation tool ![]()RMarkdown including html, CSS and Github      Pages for publishing it on the internet.
-
-
-
+* This webpage was built with RStudio using the documentation tool <img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/markdown.png" style="" alt="github-pictogram"
+	title="" width="2.5%" /> RMarkdown including HTML, CSS and <img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/github.png" style="" alt="github-pictogram"
+	title="" width="3%" /> Github Pages for publishing it on the internet.
 
 
