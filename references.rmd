@@ -5,7 +5,7 @@ output: html_document
 
 <style>
 a:link {
-  color: black;
+  color: #990000;
   background-color: transparent;
   text-decoration: none;
 }
@@ -116,7 +116,7 @@ favourite
 
 
 ### Violin Plot {.tabset}
-* Following figure shows a violin plot showing the age distribution sorted by faculty. The used data originates from a sample data-frame with information about students. 
+* Following figure shows a violin plot including a boxplot showing the age distribution sorted by faculty. The used data originates from a sample data-frame with information about students. 
 ```{r, echo=FALSE, include=FALSE, warning=FALSE }
 
 if (!require("pacman")) install.packages("pacman")
