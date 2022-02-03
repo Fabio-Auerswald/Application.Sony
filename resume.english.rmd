@@ -114,7 +114,7 @@ ul {
 
 
 
-## *Languages & Skills* {.tabset .tabset-fade .tabset-pills}
+## *LANGUAGE & SKILLS* {.tabset .tabset-fade .tabset-pills}
 
 
 ### Languages {.tabset}
