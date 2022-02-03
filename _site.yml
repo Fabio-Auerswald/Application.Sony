@@ -6,6 +6,8 @@ navbar:
       href: index.html
     - text: "Resume"
       href: resume.english.html
+    - text: "About Me"
+      href: aboutme.html
     - text: "References"
       href: references.html
     - text: "Contact"

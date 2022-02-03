@@ -164,7 +164,7 @@ languages
 
 ### Skills
 
-* MS-Office-
+* MS-Office
 * R (Programming language)
   + RMarkdown (data reporting)
   + Rvest (web-scraping)
