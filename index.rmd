@@ -57,7 +57,6 @@ a:active {
 
 #### What can be found on this webpage {.tabset}
 * A Resume, with detailed information about my education, work experience and further skills
-* An introduction section
 * References to my musical activities and examples of my coding
 * Contact info
 

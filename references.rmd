@@ -40,7 +40,7 @@ a:active {
 }
 </style>
 
-## *Music projects*
+## *Music Projects*
 ### <a href="https://www.youtube.com/watch?v=EjZedUpnmVI&t=2041s">The N.E.R.D. Expereince Part 1 celebrated by the GEEKx</a>
 * The Geekx is a project I participated in to celebrate the music of  N.E.R.D 
 
