@@ -80,7 +80,7 @@ map <- ggmap(berlin_images) +
   guides(color=FALSE) +
   labs(size="# of employees",
        title= "A map of Berlin",
-       subtitle= "The size of the dots refer the number of (potential) employees of Sony Music",
+       subtitle= "The size of the dots refer to the number of (potential) employees of Sony Music",
        caption= "Fabio Auerswald, 2022") +
   xlab("") +
   ylab("") + 
