@@ -1,5 +1,5 @@
 ---
-title: "**Contact Info**"
+title: "*Contact Info*"
 ---
 
 <style>
@@ -38,8 +38,7 @@ a:active {
 <img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/mail.png" style="" alt="mail-pictogram"
 	title="" width="3%" /> **auerswaldfabio@gmail.com**
 	
-<br/><br/>
-
+<br/>
 
 ```{r, echo=FALSE, include= FALSE, warning=FALSE, message=FALSE }
 if (!require("pacman")) install.packages("pacman")
@@ -70,10 +69,6 @@ locations <- locations %>% mutate(employees = case_when(
     locations=="my_address" ~ "My Address",
     TRUE ~ NA_character_)) 
 
-
-
-
-
 map <- ggmap(berlin_images) +
   geom_point(aes(x=lon, y=lat, size=employees, color="red"), data=locations) + 
   geom_text(aes(label=locations, vjust=2), data=locations) +
@@ -91,9 +86,8 @@ map <- ggmap(berlin_images) +
 
 ```
 
-## A map of Berlin 
-  * With the location of the Sony Music headquarters in berlin and my address
+## *A map of Berlin*
+  * The red dots mark the location of the Sony Music headquarters in Berlin and my address
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='left', fig.dim = c(10,10)}
-
 map
 ```
