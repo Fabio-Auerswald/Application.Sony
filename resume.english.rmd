@@ -33,8 +33,8 @@ text-align: justify}
 }
 </style>
 
-<img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
-	title="" width="25%" />
+<!--img src="/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/Auerswald.JPG" style="display: block; margin: 0 auto;" alt="PROFILE-PICTURE"
+	title="" width="25%" /-->
 	
 ```{css, echo = F}
 img {
@@ -113,16 +113,52 @@ ul {
 
 
 ## *Languages & Skills* {.tabset .tabset-fade .tabset-pills}
-(Language levels according to the European Framework of Reference)
+
 
 ### Languages {.tabset}
+```{r, echo=FALSE, include=FALSE, warning=FALSE }
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load("tidyverse", "ggplot2")
 
-* German        Native
-* English		    C1
-* Spanish 	    C1
-* Portuguese    B2
-* French        B1
+language_skill <- as.data.frame(
+  tibble(
+    language = c("German", "English", "Portuguese", "Spanish", "French"),
+    niveau = c("native", "C1", "B2", "C1","B1" ),
+    level = c(7, 5, 4, 5, 3 )
+  )
+)
 
+labels <- c("German", "English", "Portuguese", "Spanish", "French")
+
+languages <- language_skill %>% ggplot(aes(x=language, y=as.numeric(level), fill=language)) +
+  
+  geom_bar(stat="identity")   + 
+  geom_text(aes(label=labels), hjust=2.5) +
+  coord_flip() +
+  
+  labs(title ="",
+       caption = "Fabio Auerswald, 2022",
+       subtitle = "Language levels according to the European Framework of Reference",
+       fill = "Spoken Languages") +
+  
+  xlab("") +
+  ylab("Language proficiency") +
+  
+  scale_y_discrete(name ="Levels", 
+                   limits=c("A1","A2","B1","B2","C1","C2", "Native")) +
+  theme_light() +
+  
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+
+```
+
+
+```{r echo=FALSE, warning=FALSE, fig.align='right'}
+
+languages
+```
 
 ### Skills
 
@@ -137,3 +173,7 @@ ul {
 * PostgreSQL
 * Econometrics
 
+
+### Download printed Version
+
+* Click here <a href="myFile.js" download>Click to Download</a>to download the resume as a pdf file.

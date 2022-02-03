@@ -1,5 +1,5 @@
 ---
-title: "**Music References**"
+title: "**References**"
 output: html_document
 ---
 
@@ -27,14 +27,169 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #990000;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #ffffff;
+    background-color: #990000;
+}
 </style>
 
-
-## <a href="https://www.youtube.com/watch?v=EjZedUpnmVI&t=2041s">The N.E.R.D. Expereince Part 1 celebrated by the GEEKx</a>
+## *Music projects*
+### <a href="https://www.youtube.com/watch?v=EjZedUpnmVI&t=2041s">The N.E.R.D. Expereince Part 1 celebrated by the GEEKx</a>
 * The Geekx is a project I participated in to celebrate the music of  N.E.R.D 
 
 
-## <a href="https://youtu.be/GLKWujRzgxk?t=1484">Secric Perry Live | CURL CON Virtual</a>
+#### <a href="https://youtu.be/GLKWujRzgxk?t=1484">Secric Perry Live | CURL CON Virtual</a>
 * Sedric Perry is a Berlin based artist who I performed with on several occasions.
- 
 
+<br/><br/>
+
+## *Data Visualisation Examples* {.tabset .tabset-fade .tabset-pills}
+* Here are some examples of data visualisation based on fictive dataframe of students
+
+
+### Hisogram Chart {.tabset}
+* The following histograms show the five most used keys of my favorite pianist Ahmad Jamal. The data is downloaded via an API from my most used streaming platform.
+
+```{r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE}
+
+# Loading required packages
+library(spotifyr)
+library(tidyverse)
+library(httpuv)
+library(knitr)
+library(devtools)
+library(dplyr)
+
+# Connect to Spotify API
+Sys.setenv(SPOTIFY_CLIENT_ID = "9af1a624b5da4e199e8782f6cf806378")
+Sys.setenv(SPOTIFY_CLIENT_SECRET = "2db3f175820f43248d4bcf0dcd6580a5")
+
+access_token <- get_spotify_access_token()
+
+
+
+ahmad_jamal <- get_artist_audio_features('ahmad jamal')
+
+## Selecting only the wanted columns
+ahmad_jamal_1 <- ahmad_jamal %>% dplyr::select(key_mode, key, key_name)
+
+## What were Ahmad Jamals favorite keys to play in?
+ahmad_jamal_favorite <- ahmad_jamal %>% 
+  count(key_mode, sort = TRUE) %>% 
+  head(5) 
+
+ahmad_jamal_favorite <- as.data.frame(ahmad_jamal_favorite)
+
+favourite <- as.data.frame(ahmad_jamal_favorite) %>% 
+  
+  ggplot(aes(x=key_mode, y=n, fill=key_mode)) +
+  
+  geom_bar(stat="identity")   + 
+  geom_text(aes(label=key_mode), hjust=2) +
+  coord_flip() +
+  
+  labs(title ="",
+       caption = "Fabio Auerswald, 2022",
+       subtitle = "Ahmad Jamal's favorite keys to play in ",
+       fill = "Favorite Key") +
+  
+  xlab("") +
+  ylab("Number of songs composed in this key")  +
+  theme_light() +
+  
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+
+```
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center' }
+favourite
+
+```
+
+
+### Violin Plot {.tabset}
+* Following figure shows a violin plot showing a age distribution sorted by faculty.
+```{r, echo=FALSE, include=FALSE, warning=FALSE }
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load("tidyverse", "viridis", "ggplot", "hrbrthemes")
+
+setwd("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io")
+students <- readxl::read_excel("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/students.xlsx")
+
+violin <- ggplot(students, aes(y=age, x=faculty, fill=faculty)) +
+  
+  geom_violin(position="dodge") +
+  
+  geom_boxplot(width=0.2) +
+  
+  labs(title = "Violin plot",
+       
+       fill = "Faculty",
+       
+       subtitle = "Distribution of student age by faculty",
+       
+       caption = "Fabio Auerswald, 2022",
+       legend_title = "Figure") +
+  
+  ylab("Respondents's age (in years)") +
+  xlab("Faculty") + 
+  
+  scale_y_continuous(limits= c(0,65)) +
+  
+  theme_light()
+
+```
+
+```{r, echo=FALSE, warning=FALSE, fig.align='center' }
+violin
+```
+
+
+### Ridgeline Plot {.tabset}
+* Here you can see the R code of a quick data wrangling process with a final data visualization in a ridgeline plot. The plot shows a distribution of the liking of each course by the students.
+
+``` {r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE}
+
+# Automized loading of all packages at once
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load("tidyverse", "viridis", "ggridges", "hrbrthemes")
+
+# Setting a working directory and loading data
+setwd("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io")
+students <- readxl::read_excel("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/students.xlsx")
+
+# Data wrangling followed by the visualization of desired information
+ridge <-  students %>%
+  mutate(like= as.numeric(like),
+         course = as.factor(course)) %>%
+  filter(!is.na(course), !is.na(like)) %>%
+  ggplot(aes(x = like, y = reorder(course, like), fill = ..x..)) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_viridis() +
+  labs(title = "How much students like their course?") +
+  xlab("Liking the course (1-6)") +
+  ylab("Course enrollment") +
+  theme_ipsum() +
+  theme(
+    legend.position="none",
+    panel.spacing = unit(0.1, "lines"),
+    strip.text.x = element_text(size = 8)
+  )
+```
+
+```{r figure,  echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+
+ridge
+
+```

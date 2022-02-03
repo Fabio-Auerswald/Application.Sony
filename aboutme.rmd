@@ -29,53 +29,38 @@ text-align: justify}
 </style>
 
 
-### *My Interest in the field*
-dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed 
-diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
-kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+### *Introduction*
 
-### *Why I'm a perfect fit*
-I'm a music loving enthusiast who's obsessed with data. I possess a strong passion for music and decided to pursue a professional career. During this time, I have again profoundly developed my skills in self-discipline and self-organization. However, due to my growing interest in financial topics, I’ve decided to study economics. Through my supplementary subject and focus on organizational sociology, I am particularly aware of the different perspectives with which a company and the business decisions to be made can be viewed. Through concepts such as scrum, I have learned the relevance of the basic structure of communication channels and their importance for the success of decisions. 
-Furthermore, my work at New Beings has taught me how important it is to question the status quo, es-tablish structures, and continuously re-evaluate them to effectively bring about change that creates added value for all parties involved. In doing so, I became aware of basic behaviors, such as habit and ignorance, as obstacles to a change process, which made me realize the importance of teamwork and a change of perspective.
-
-``` {r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE}
+As a boundary spanner who thrives on connecting people, I have come to know music as my most important tool for building connections. Allow me to elaborate on how I intend to combine my skillset in communication, data analytics and coordination with my passion for music to the benefit of Sony Music. 
 
 
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load("tidyverse", "viridis", "ggridges", "hrbrthemes")
+From an early age I was introduced to various musical instruments, but developed a fondness for the piano over time. I currently enjoy playing jazz on the piano and accompanying several talented ( some upcoming) musicians in Berlin on various projects. Some of which you will also find linked on this website.
 
-setwd("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io")
-students <- readxl::read_excel("/Users/Fabio/Desktop/GitHub/Fabio-Auerswald.github.io/students.xlsx")
+During my engineering study at the HTW in Berlin, I developed an interest for data science. 
+
+I am also highly enthusiastic about data analytics, using programming tools such as R. 
+
+economics and sociology
+
+musik
+
+modelling self sustaining financing my studies
+
+new beings: interested in change and creating new things
 
 
-ridge <-  students %>%
-  mutate(like= as.numeric(like),
-         course = as.factor(course)) %>%
-  filter(!is.na(course), !is.na(like)) %>%
-  ggplot(aes(x = like, y = reorder(course, like), fill = ..x..)) +
-  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
-  scale_fill_viridis() +
-  labs(title = "How much students like their course?") +
-  xlab("Liking the course (1-6)") +
-  ylab("Course enrollment") +
-  theme_ipsum() +
-  theme(
-    legend.position="none",
-    panel.spacing = unit(0.1, "lines"),
-    strip.text.x = element_text(size = 8)
-  )
-```
+interest about data analytics
 
-### *Data Visualization example*
-* Here you can see a demonstration of a quick data wrangling and manipulation with a final data visualization in ridgeline plot. The data used is a sample dataframe containing infromation about students. The following plot shows a distribution of the liking of each course by the students.
 
-```{r figure,  echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
 
-ridge
+As I was building up a strong interest in mathematics and statistics at the same time, I found the combination of economics and sociology the perfect fit, in order to deepen my knowledge about human behavior and statistics.
+ 
 
-```
+ Through my supplementary subject and focus on organizational sociology, I am particularly aware of the importance of proficient analysis of all dependencies for rational decision-making. 
+ 
+ Therefore I can provide 
+Furthermore, my work at New Beings has taught me how important it is to question the status quo, establish structures, and continuously re-evaluate them to effectively bring about change that creates added value for all parties involved. In doing so, I became aware of basic behaviors, such as habit and ignorance, as obstacles to a change process, which made me realize the importance of teamwork and a change of perspective.
+
 
 ### *My passion for Data*
 In my ongoing studies I had the chance to gain a large skill set in a variety of topics regarding statistics and data analysis. Throughout courses in R and STATA I became familiar with the modern tools of data analysis and the endless possibilities in edit, analyse and visualize data. Since then I'm familiar with the process of data wrangling, cleaning and I have a deep understanding of descriptive and inferential statistics. In decision solid foundation of well analysed data always needs to be at hand, but not only the data needs to be analyse it as well needs to be visualized and communicated adequately to those who take a decision. I have a knowledge of data visualisation and data collection through methods such as web-scraping. Therefore I see myself trained enough to provide sufficient information for rational decision making.
