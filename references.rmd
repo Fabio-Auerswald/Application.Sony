@@ -51,6 +51,14 @@ a:active {
 
 <br/><br/>
 
+## *One of my favorite songs*
+
+```{=html}
+<iframe src="https://open.spotify.com/embed/track/4MIPpjKWw1lLVwS6tLhis1?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+```
+
+<br/><br/>
+
 ## *Data Visualisation Examples* {.tabset .tabset-fade .tabset-pills}
 
 ### Hisogram Chart {.tabset}
@@ -114,6 +122,8 @@ favourite <- as.data.frame(ahmad_jamal_favorite) %>%
 favourite
 
 ```
+
+
 
 
 ### Violin Plot {.tabset}
