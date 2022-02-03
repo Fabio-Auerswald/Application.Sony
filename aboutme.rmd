@@ -24,8 +24,21 @@ text-align: justify}
 #TOC {
   color: #990000;
   background-color: #990000;
+  position: float;
+  left: 18;
+  top: 20;
+  width: 200px;
+  height: 12.5%;
+  overflow:auto;
 }
 
+
+body {
+  max-width: 800px;
+  margin: auto;
+  margin-left:210px;
+  line-height: 20px;
+}
 </style>
 
 
