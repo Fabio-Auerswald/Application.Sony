@@ -56,10 +56,10 @@ a:active {
 
 
 #### What can be found on this webpage {.tabset}
-* A <a href="https://fabio-auerswald.github.io/Resume.html "rel="noopener noreferrer" target="_parent">Resume</a>, with detailed information about my education, work experience and further skills
+* A <a href="https://fabio-auerswald.github.io/resume.english.html "rel="noopener noreferrer" target="_parent">Resume</a>, with detailed information about my education, work experience and further skills
 * A section with more detailed information <a href="https://fabio-auerswald.github.io/aboutme.html "rel="noopener noreferrer" target="_parent">about me</a>.
 * <a href="https://fabio-auerswald.github.io/references.html "rel="noopener noreferrer" target="_parent">References</a> to my musical activities and examples of my coding
-* <a href="https://fabio-auerswald.github.io/resume.english.html "rel="noopener noreferrer" target="_parent">Contact</a> info
+* <a href="https://fabio-auerswald.github.io/about.html "rel="noopener noreferrer" target="_parent">Contact</a> info
 
 
 #### How this webpage was created {.tabset}
