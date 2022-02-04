@@ -14,7 +14,7 @@
 <title>Contact Info</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,6 +32,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -310,9 +318,11 @@ a:active {
 <div id="a-map-of-berlin" class="section level2">
 <h2><em>A map of Berlin</em></h2>
 <ul>
-<li>The red dots mark the location of the Sony Music headquarters in Berlin and my address</li>
-<li>The size of the dots refer to the number of (potential) employees of Sony Music <img src="about_files/figure-html/unnamed-chunk-2-1.png" width="960" style="display: block; margin: auto auto auto 0;" /></li>
+<li>This map was created using the leaflet package which sources the map date from OpenStreetMap.</li>
+<li>It shows the address of Sony Music in Berlin and the address of your next potential employee.</li>
 </ul>
+<div id="htmlwidget-1ae559124c8c24d4027a" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1ae559124c8c24d4027a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[52.4923727260586,13.3979519120062,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"My address",{"interactive":false,"permanent":true,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"15px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[52.4978808857941,13.363800069852,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"Here is the Sony Music Office",{"interactive":false,"permanent":true,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"15px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[52.4989604560143,13.379962253431],13.5,[]],"limits":{"lat":[52.4923727260586,52.4978808857941],"lng":[13.363800069852,13.3979519120062]}},"evals":[],"jsHooks":[]}</script>
 </div>
 
 
