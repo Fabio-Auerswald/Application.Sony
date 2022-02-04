@@ -87,7 +87,7 @@ map <- ggmap(berlin_images) +
 ```
 
 ## *A map of Berlin*
-  * This map was created using the leaflet package which sources the map date from OpenStreetMap.
+  * This map was created using the leaflet package sourcing the map data from OpenStreetMap.
   * It shows the address of Sony Music in Berlin and the address of your next potential employee.
 ```{r, echo=FALSE, warning=FALSE, include=FALSE, message=FALSE, fig.align='left', fig.dim = c(10,10)}
 map
