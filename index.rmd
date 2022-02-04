@@ -1,5 +1,5 @@
 ---
-title: "**My Web-CV**" 
+title: "**My Web-CV: Working Student in Market Analytics**" 
 output:
   html_document:
     theme: cosmo
