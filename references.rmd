@@ -1,6 +1,13 @@
 ---
 title: "**References**"
-output: html_document
+output:
+  html_document: 
+    number_sections: false
+    toc: true
+    toc_depht: 3
+    toc_float: true
+    collapsed: true
+output_dir: "."
 ---
 
 <style>
@@ -48,6 +55,14 @@ a:active {
 
 #### <a href="https://youtu.be/GLKWujRzgxk?t=1484">Secric Perry Live | CURL CON Virtual</a>
 * Sedric Perry is a Berlin based artist who I performed with on several occasions.
+
+
+## *Music Professors*
+#### <a href="https://www.musiktheorie-komposition.de/referenzen">Carlo Inderhees</a>
+* Carlo Inderhees is a teacher of music theory with over 25 years of experience. I have been taking lessons with Carlo in the areas of composition, harmony and rythem.
+
+#### <a href="https://www.corneliusclaudiokreusch.com/CCK.html">Cornelius C. Kreusch</a> 
+* Cornelius C. Kreusch is german pianist who is well known in the scene and has played with jazz legends such as Herbie Hancock, Bobby McFerrin, Jaky Byard and many more. He has been an inspiring source for my playing and musical development. 
 
 <br/><br/>
 
